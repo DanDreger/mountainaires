@@ -1,0 +1,61 @@
+
+body { 
+  background: url("../img/barbershop5.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo {
+	position: 						absolute;
+	top: 							2%;
+	right:							15%;
+	background-color: 				rgba(255,255,255,0.7);
+	border-radius: 					40px;
+	z-index: 						100;
+	border:							2px solid white;
+}
+
+.logo img {
+	width: 							300px;
+	border-radius: 					20px;
+}
+
+.navbar {
+    border-radius: 					0px;
+}
+
+.navbar-inverse {
+    background-color: 				rgba(34,34,34,0.75);
+}
+
+br {
+	color: 							white;
+	width: 							75%;
+
+}
+
+.carousel-indicators {
+    position: 						absolute;
+    bottom: 						10px;
+    left: 							50%;
+    z-index: 						15;
+    width: 							60%;
+    padding-left:					 0;
+    margin-left: 					-25%;
+    text-align: center;
+    list-style: none;
+}
+
+aside {
+	position: 						absolute;
+	background-color: 				rgba(255,255,255,0.7);
+	width: 							300px;
+	border-radius: 					40px;
+	top: 							30%;
+	right: 							15%;
+	border:							3px solid white;
+	padding: 						2%;
+
+}
